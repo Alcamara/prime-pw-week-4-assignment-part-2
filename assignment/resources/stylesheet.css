@@ -6,6 +6,7 @@
 :root{
     font-size:16px;
     box-sizing: border-box;
+    color:white;
 }
 
 body{
@@ -18,7 +19,6 @@ body{
 
 header{
     background-color: rgb(121, 116, 51);
-    color: white;
     text-align: center;
     margin-bottom: 3rem;
 }
@@ -32,10 +32,29 @@ header{
     text-align: center;
     border: 1px solid red;
     margin: 0 auto;
+    
 }
 
 
 
 .info img{
     width: 60%;
+    margin: 20px 0;
+}
+
+.info h2{
+    font-size: 2rem;
+    background-color:rgb(197, 2, 2);
+    padding:1em;
+}
+
+.info h3{
+    font-size: 1.5rem;
+    background-color:black;
+    padding:1em;
+    
+}
+
+.info h3 span{
+    color: red;    
 }
